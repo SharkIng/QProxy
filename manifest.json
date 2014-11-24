@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "Queen's Web Proxy",
+  "description": "Using Queen's University Web Proxy for Acdanmic Website",
+  "version": "0.0.1",
+
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ],
+
+  "background": {
+      "scripts": ["background.js"],
+      "presistent": false
+  },
+
+  "page_action": {
+      "default_title": "Access through Queen's Proxy",
+      "default_icon": "./image/icon.png"
+  },
+
+  "icons": {
+    "21": "./image/icon.png",
+    "48": "./image/icon_48.png"
+  }
+}
