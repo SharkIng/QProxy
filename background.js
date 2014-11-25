@@ -47,12 +47,8 @@ function tabListener(tabId, changeInfo, tab) {
 
 function pageListener(tab) {
 					
-    var proxy_url = localStorage['saved_proxy_url'];
-    if (!proxy_url) {
-        proxy_url = 'proxy.queensu.ca';
-        localStorage['saved_proxy_url'] = proxy_url;
-	}
-    
+    proxy_url = 'proxy.queensu.ca';
+       
     useProxy(tab, proxy_url);
 					
 }

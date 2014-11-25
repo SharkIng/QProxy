@@ -15,12 +15,12 @@
   },
 
   "page_action": {
-      "default_title": "Access through Queen's Proxy",
-      "default_icon": "./image/icon.png"
+      "default_title": "Access through Queen's Web Proxy",
+      "default_icon": "./image/Qicon.png"
   },
 
   "icons": {
-    "21": "./image/icon.png",
-    "48": "./image/icon_48.png"
+    "21": "./image/Qicon.png",
+    "48": "./image/Qicon_48.png"
   }
 }
